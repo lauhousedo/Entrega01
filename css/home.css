@@ -2,9 +2,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
 h1 {
     font-size: 5em;
 }
+
+h2 {
+    font-size: 1.5em;
+}
+
 .home {
     width:100%;
     height: 100vh;
@@ -16,7 +25,6 @@ h1 {
     margin-top: 10px; 
     margin-bottom: 10px;
     width:50%;
-    height:5em;
     background-color: white;
     stroke: black;
     border: 1px solid black;
@@ -24,5 +32,18 @@ h1 {
 
 .titulo h1 {
     text-align: left; 
-    margin-left: 20px;
 }
+
+.subtitulo {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70%;
+    margin-top: 50vh;
+}
+
+.subtitulo hr {
+    border: 1px dashed black;
+}
+
+
