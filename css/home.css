@@ -52,6 +52,8 @@ h2 {
     border: 1px dashed black;
 }
 
+/* MAQUETACIÓN DE LA PÁGINA MODAL */
+/* MAQUETACIÓN DEL BOTÓN DE LA HOME */
 .btn-primary {
  background-color: #BDBDBD;
  font-family: 'Roboto Mono', monospace;
@@ -59,8 +61,49 @@ color: black;
 position: fixed;
   top: 0;
   right: 0;
-  padding: 10px 20px;
+  padding: 40px 40px;
 margin-top: 10px;
+border-color: black;
+border-radius: 50%;
 }
 
+.btn-primary:hover {
+    background-color: blueviolet;
+    color: black;
+    border-color: black;
+}
 
+.modal h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-content {
+    border: 1px solid black;
+}
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+/* MAQUETACIÓN BOTÓN SEE MORE */
+.pagina {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: #00FF66;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 2em 0.5em 2em;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    background-color:#BDBDBD;
+}
+
+.modal-footer hr {
+    border: 1px dashed black;
+    width: 30%;
+}
