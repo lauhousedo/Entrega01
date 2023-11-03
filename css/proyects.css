@@ -1,7 +1,6 @@
 .body {
-    font-family:'Roboto Mono', monospace; 
-    font-family: 'Roboto', sans-serif;
- }
+    font-family: 'Roboto Mono', monospace;
+}
 
 .heroe {
     padding-left: 20px;
@@ -34,7 +33,17 @@ header .heroe {
 hr {
     margin-bottom: 0%;
     margin-top: 0%;
+    width: 100%;
 }
+
+.image-caption {
+    width: 100%;
+    white-space: pre-line;
+    font-size: 70px;
+    line-height: 1;
+    background-color: 
+}
+
 
 .seccion2 {
     margin-top: 0%;
@@ -50,23 +59,45 @@ hr {
     margin-right: 0;
 }
 
-
-
-#col-auto {
-    background-color: pink;
-}
+.gallery4 [
+    height:100%;
+]
 
 .seccion2 .sin-margenes {
     margin: 0;
 }
 
+.green-rectangle {
+    background-color: #00FF66; 
+    width: 100%;
+}
+
+    /* footer */
 .btn-primary {
 background-color: #00FF66;
 }
 
-.d-flex {
-    
+footer {
+    border: 2px solid black; 
+    padding: 20px; 
+    margin: 0; 
+    width: 100%;
 }
+
+.custom-input {
+    width: 100%; 
+}
+
+footer form {
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+/* email */
+.form-control {
+    width: 1200px; 
+    margin-right: 20px;
+}
+
 
 
 
