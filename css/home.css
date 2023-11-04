@@ -17,7 +17,7 @@ p {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 8vw;
 }
 
 h2 {
@@ -46,6 +46,7 @@ header {
 
 .titulo h1 {
     text-align: left; 
+    margin: 0;
 }
 
 .subtitulo {
@@ -77,10 +78,6 @@ border-color: black;
 border-radius: 50%;
 }
 
-.btn-close {
-
-}
-
 
 .btn-primary:hover {
     background-color: blueviolet;
@@ -91,7 +88,6 @@ border-radius: 50%;
 .modal h1 {
     font-family: 'Roboto', sans-serif;
 }
-
 
 .modal-content {
     border: 1px solid black;
@@ -129,4 +125,43 @@ border-radius: 50%;
 
 .modal-footer p {
     padding: 0.5em 0;
+}
+
+/* MEDIA QUERYS: RESPONSIVE */
+
+@media (max-width: 576px) {
+    * {
+        border: none;
+    }
+
+
+    h1 {
+        margin: 0;
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    p {
+        font-size: 1.4em;
+    }
+    .titulo {
+        padding: 20px 10px;
+    }
+
+    .subtitulo {
+        width: 50%;
+        align-items: left;
+        margin-left: 10px;
+    }
+
+    hr {
+        width: 10%;
+    }
+
+    .modal-footer {
+        text-align: center;
+    }
 }
