@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -61,8 +64,10 @@ color: black;
 position: fixed;
   top: 0;
   right: 0;
-  padding: 40px 40px;
+width: 100px;
+height: 100px;
 margin-top: 10px;
+margin-right: 10px;
 border-color: black;
 border-radius: 50%;
 }
@@ -77,8 +82,21 @@ border-radius: 50%;
     font-family: 'Roboto', sans-serif;
 }
 
+.modal-dialog{
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .modal-content {
     border: 1px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
 }
 .modal-header {
     display: flex;
