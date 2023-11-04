@@ -6,6 +6,7 @@
 
 }
 
+
 body {
     background-color:#00FF66;
 
@@ -23,20 +24,24 @@ h2 {
     font-size: 1.5em;
 }
 
-.home {
+header {
     width:100%;
-    height: 100vh;
+    
+}
+
+.home {
+    width: 100%;
+
 }
 
 .titulo{
     padding-left: 20px; 
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    margin-left: 10px;
     width:50%;
     background-color: white;
     stroke: black;
     border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .titulo h1 {
@@ -62,8 +67,8 @@ h2 {
  font-family: 'Roboto Mono', monospace;
 color: black;
 position: fixed;
-  top: 0;
-  right: 0;
+top: 0;
+right: 0;
 width: 100px;
 height: 100px;
 margin-top: 10px;
@@ -71,6 +76,11 @@ margin-right: 10px;
 border-color: black;
 border-radius: 50%;
 }
+
+.btn-close {
+
+}
+
 
 .btn-primary:hover {
     background-color: blueviolet;
@@ -82,31 +92,20 @@ border-radius: 50%;
     font-family: 'Roboto', sans-serif;
 }
 
-.modal-dialog{
-    height: 100%;
-    margin: 0;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
 
 .modal-content {
     border: 1px solid black;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    height:100%;
 }
 .modal-header {
-    display: flex;
-    flex-direction: column;
     border-bottom: 1px solid black;
+    flex-direction: column;
+    padding: 20px 0px;
 }
 
 /* MAQUETACIÓN BOTÓN SEE MORE */
 .pagina {
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
     background-color: #00FF66;
     font-family: 'Roboto', sans-serif;
@@ -119,9 +118,15 @@ border-radius: 50%;
     display: flex;
     flex-direction: column;
     background-color:#BDBDBD;
+    padding: 20px 0px;
+
 }
 
 .modal-footer hr {
     border: 1px dashed black;
     width: 30%;
+}
+
+.modal-footer p {
+    padding: 0.5em 0;
 }
