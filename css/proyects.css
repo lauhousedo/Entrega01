@@ -10,10 +10,6 @@
     width: 50%; 
 }
 
-.row {
-    margin-right: 50px;
-}
-
 h1 {
     font-size: 5em;
 }
@@ -35,13 +31,13 @@ hr {
     margin-top: 0%;
     width: 100%;
 }
-
+/* galeria1 */
 .image-caption {
     width: 100%;
     white-space: pre-line;
-    font-size: 70px;
+    font-size: 5em;
     line-height: 1;
-    background-color: 
+    margin-bottom: 80px;
 }
 
 
@@ -58,10 +54,80 @@ hr {
     margin-left: 0;
     margin-right: 0;
 }
+.align-self-end {
+margin-left: auto;
+}
 
-.gallery4 [
-    height:100%;
-]
+/* acordeon */
+
+.accordion {
+    border: 2px solid black; 
+    border-radius: 5px; 
+    width: 100%;
+    
+}
+
+.accordion-item {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
+}
+
+.accordion-button {
+    border: none;
+    padding: 0; 
+    background-color: white !important; 
+    font-size: 2em;
+    border-bottom: none;
+    color: black !important;
+
+}
+
+.accordion-body {
+    border-top: none;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+     
+}
+
+.accordion-button::after {
+    font-size: 3rem;
+}
+
+/* galeria2 */
+.seccion2 .sin-margenes {
+    margin: 0;
+}
+
+.green-rectangle {
+    background-color: #00FF66; 
+    width: 100%;
+}
+
+.overlay-text {
+    color: black;
+    padding: 10px;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.seccion2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.flex-fill {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
 
 .seccion2 .sin-margenes {
     margin: 0;
@@ -72,9 +138,20 @@ hr {
     width: 100%;
 }
 
+.overlay-text {
+    color: black;
+    padding: 10px;
+    font-size: 3em;
+    line-height: 1;
+}
+
+
+
     /* footer */
 .btn-primary {
 background-color: #00FF66;
+color: black;
+border: 1px solid black;
 }
 
 footer {
@@ -92,10 +169,12 @@ footer form {
     margin-bottom: 20px; 
     margin-top: 20px; 
 }
+
 /* email */
 .form-control {
     width: 1200px; 
     margin-right: 20px;
+    border: 1px solid black;
 }
 
 
