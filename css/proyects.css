@@ -64,7 +64,6 @@ margin-left: auto;
     border: 2px solid black; 
     border-radius: 5px; 
     width: 100%;
-    
 }
 
 .accordion-item {
@@ -92,9 +91,6 @@ margin-left: auto;
      
 }
 
-.accordion-button::after {
-    font-size: 3rem;
-}
 
 /* galeria2 */
 .seccion2 .sin-margenes {
@@ -109,8 +105,9 @@ margin-left: auto;
 .overlay-text {
     color: black;
     padding: 10px;
-    font-size: 3em;
+    font-size: 6em;
     line-height: 1;
+    white-space: pre-line;
 }
 
 .seccion2 {
@@ -127,22 +124,8 @@ margin-left: auto;
     margin-right: 0;
 }
 
-
-
 .seccion2 .sin-margenes {
     margin: 0;
-}
-
-.green-rectangle {
-    background-color: #00FF66; 
-    width: 100%;
-}
-
-.overlay-text {
-    color: black;
-    padding: 10px;
-    font-size: 3em;
-    line-height: 1;
 }
 
 
@@ -172,12 +155,97 @@ footer form {
 
 /* email */
 .form-control {
-    width: 1200px; 
+    width: 80em; 
     margin-right: 20px;
     border: 1px solid black;
 }
 
+/* PRIMERA MEDIA QUERY */
 
+@media (max-width: 576px) {
+    
+    h1 {
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    .row {
+        margin: 0;
+    }
+    
+    .col {
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .image-caption {
+        width: 100%;
+        white-space: pre-line;
+        font-size: 7em;
+        line-height: 1;
+        margin-bottom: 100px;
+    }
+
+    .seccion2 .d-flex {
+        flex-direction: column; 
+    }
+
+    .seccion2 .gallery4 {
+         
+    }
+    
+    .seccion2 .flex-fill {
+        margin: 0; 
+        width: 100%; 
+    }
+    
+    .seccion2 .green-rectangle {
+        width: 100%;
+        height: 350px; 
+    }
+
+    .overlay-text {
+        color: black;
+        padding: 10px;
+        font-size: 5em;
+        line-height: 1;
+    }
+
+    footer {
+        font-size: 2.5vw;
+    }
+
+    .form-control {
+        width: 20em; 
+        
+    }
+
+}
+
+/* SEGUNDA MEDIA QUERY */
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    .form-control {
+        width: 20em;    
+    }
+}
 
 
 
