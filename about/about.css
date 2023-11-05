@@ -18,6 +18,7 @@ body {
 p {
     font-family: 'Roboto Mono', monospace;
     text-align: justify;
+    font-size: 1.5vw;
 }
 
 
@@ -101,11 +102,15 @@ h2 {
     padding: 0.5em 0;
 }
 
-   /* CSS ACORDEÓN MARÍA */
+   /*ACORDEÓN */
 
 .accordion {
     border-top: none;  
     width: 100%;
+}
+
+#accordionExample > p {
+    font-size: 2vw;
 }
 
 .accordion-item {
@@ -145,58 +150,56 @@ h2 {
 
 /* footer */
 
-.btn-primary {
-
-background-color: #00FF66;
-
-color: black;
-
-border: 1px solid black;
-
+.footext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-
+.btn {
+background-color: #00FF66;
+color: black;
+border: 1px solid black;
+border-radius: 50px;
+}
 
 footer {
-
-    border: 2px solid black; 
-
+    border: 1px solid black 0px; 
+    border-top: 0;
     padding: 20px; 
-
     margin: 0; 
-
     width: 100%;
-
+    background-color: #BDBDBD;
 }
 
+footer >.footext > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+}
 
-
+footer > .footext > p {
+    font-family: 'Roboto Mono', monospace;
+}
 .custom-input {
-
     width: 100%; 
-
 }
-
-
+.input {
+    width: 80%;
+}
 
 footer form {
-
     margin-bottom: 20px; 
-
     margin-top: 20px; 
-
 }
-
 
 
 /* email */
+.d-flex {
+    width: 100%;
+    justify-content: space-between;
+}
 
 .form-control {
-
-    width: 1200px; 
-
-    margin-right: 20px;
-
     border: 1px solid black;
-
+    border-radius: 50px;
 }
