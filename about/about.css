@@ -9,7 +9,7 @@
 
 
 body {
-    background-color:#00FF66;
+    background-color: white;
 
 
 }
@@ -17,14 +17,186 @@ body {
 
 p {
     font-family: 'Roboto Mono', monospace;
+    text-align: justify;
 }
 
 
 h1 {
-    font-size: 8vw;
+    font-size: 9vw;
 }
 
 
 h2 {
     font-size: 1.5em;
+}
+
+/* MAQUETACIÓN DEL TÍTULO */
+.caja {
+    padding: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* MAQUETACIÓN DEL BOTÓN DE MENÚ */
+.btn-primary {
+    background-color: #BDBDBD;
+    font-family: 'Roboto Mono', monospace;
+   color: black;
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 100px;
+   height: 100px;
+   margin-top: 10px;
+   margin-right: 10px;
+   border-color: black;
+   border-radius: 50%;
+   }
+
+   .btn-primary:hover {
+    background-color: blueviolet;
+    color: black;
+    border-color: black;
+}
+
+/* MAQUETACIÓN MODAL MENÚ */
+.modal h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-content {
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.modal-header {
+    border-bottom: 1px solid black;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+/* MAQUETACIÓN BOTÓN SEE MORE */
+.pagina {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    background-color: #00FF66;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 2em 0.5em 2em;
+    border: 1px solid black;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    background-color:#BDBDBD;
+    padding: 20px 0px;
+
+}
+
+.modal-footer hr {
+    border: 1px dashed black;
+    width: 30%;
+}
+
+.modal-footer p {
+    padding: 0.5em 0;
+}
+
+   /* CSS ACORDEÓN MARÍA */
+
+.accordion {
+    border-top: none;  
+    width: 100%;
+}
+
+.accordion-item {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
+    border-radius: 0% !important;
+    border-bottom: 1px solid black;
+}
+
+
+
+.accordion-button {
+    box-shadow: none !important;
+    padding: 0; 
+    background-color: white !important; 
+    font-size: 9vw;
+    color: black !important;
+}
+
+
+.accordion-button::after {
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+.accordion-body {
+    border-top: none;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* footer */
+
+.btn-primary {
+
+background-color: #00FF66;
+
+color: black;
+
+border: 1px solid black;
+
+}
+
+
+
+footer {
+
+    border: 2px solid black; 
+
+    padding: 20px; 
+
+    margin: 0; 
+
+    width: 100%;
+
+}
+
+
+
+.custom-input {
+
+    width: 100%; 
+
+}
+
+
+
+footer form {
+
+    margin-bottom: 20px; 
+
+    margin-top: 20px; 
+
+}
+
+
+
+/* email */
+
+.form-control {
+
+    width: 1200px; 
+
+    margin-right: 20px;
+
+    border: 1px solid black;
+
 }
