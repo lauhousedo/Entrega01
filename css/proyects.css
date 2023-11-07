@@ -33,32 +33,27 @@ hr {
 }
 /* galeria1 */
 .image-caption {
-    width: 100%;
+    width: 50%;
     white-space: pre-line;
-    font-size: 5em;
+    font-size: 3em;
     line-height: 1;
     margin-bottom: 80px;
 }
 
 
 .seccion2 {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0;
 }
-
 .flex-fill {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
+/*
 .image-container {
     margin-top: -250px;
     
     float: right;
   }
+*/
 
 
 
