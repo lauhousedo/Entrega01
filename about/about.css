@@ -52,6 +52,7 @@ h2 {
    margin-right: 10px;
    border-color: black;
    border-radius: 50%;
+margin-top: 30px;
    }
 
    .btn-primary:hover {
@@ -206,14 +207,6 @@ footer form {
 /* MEDIA QUERIES: RESPONSIVE */
 /* PRIMERA MEDIA QUERY */
 @media (max-width: 576px) {
-    * {
-        border: none;
-    }
-
-    .home {
-        width: 70%;
-    }
-
     h1 {
         margin: 0;
         font-size: 13vw;
@@ -244,14 +237,16 @@ footer form {
         text-align: center;
     }
 
-.btn-primary {
+    .btn-primary {
     width: 80px;
     height: 80px;
+    margin-top: 30px;
 }
 
     .caja {
         padding: 30px;
         padding-left: 20px;
+        align-items: center;
     }
 
     .accordion-button {
@@ -259,10 +254,6 @@ footer form {
     }
 
     /* FOOTER */
-
-    .footext {
-        
-    }
 
     footer >.footext > h2 {
         font-size: 6vw;
@@ -282,4 +273,39 @@ footer form {
 
 }
 
+
+/* SEGUNDA MEDIA QUERY */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    h1 {
+        margin: 0;
+        font-size: 11vw;
+    }
+
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .subtitulo {
+        width: 25%;
+        margin-right: 30%;
+    }
+
+    .btn-primary {
+        width: 90px;
+        height: 90px;
+        margin-top: 20px;
+    }
+
+    .accordion-button {
+        font-size: 11vw;
+    }
+
+    /* FOOTER */
+    footer >.footext > h2 {
+        font-size: 4vw;
+    }
+
+}
 
