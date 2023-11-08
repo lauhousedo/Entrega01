@@ -83,6 +83,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     padding: 0.5em 2em 0.5em 2em;
     border: 1px solid black;
+    border-radius: 30px;
 }
 
 .modal-footer {
@@ -100,6 +101,7 @@ h2 {
 
 .modal-footer p {
     padding: 0.5em 0;
+    font-size: 1em;
 }
 
    /*ACORDEÓN */
@@ -183,9 +185,6 @@ footer > .footext > p {
 .custom-input {
     width: 100%; 
 }
-.input {
-    width: 80%;
-}
 
 footer form {
     margin-bottom: 20px; 
@@ -203,3 +202,84 @@ footer form {
     border: 1px solid black;
     border-radius: 50px;
 }
+
+/* MEDIA QUERIES: RESPONSIVE */
+/* PRIMERA MEDIA QUERY */
+@media (max-width: 576px) {
+    * {
+        border: none;
+    }
+
+    .home {
+        width: 70%;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    p {
+        font-size: 1.4em;
+    }
+    .titulo {
+        padding: 15px 10px;
+    }
+
+    .subtitulo {
+        width: 50%;
+        align-items: left;
+        margin-left: 10px;
+    }
+
+    hr {
+        width: 70%;
+    }
+
+    .modal-footer {
+        text-align: center;
+    }
+
+.btn-primary {
+    width: 80px;
+    height: 80px;
+}
+
+    .caja {
+        padding: 30px;
+        padding-left: 20px;
+    }
+
+    .accordion-button {
+        font-size: 13vw;
+    }
+
+    /* FOOTER */
+
+    .footext {
+        
+    }
+
+    footer >.footext > h2 {
+        font-size: 6vw;
+    }
+
+    footer .footext :last-child {
+        text-align: right;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex :last-child {
+        margin-top: 5px;
+    }
+
+}
+
+
