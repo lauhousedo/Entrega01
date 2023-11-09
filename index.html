@@ -14,20 +14,63 @@
 
  <!-- HEADER -->
 <body>
-    <header>
-       <div class="container heroe">
-            <div class="row">
-                <div class="col-lg-12 col-md-5">
-                    <h1>PROYECTS.</h1>
-                </div>
-            </div>
+    <!--TÍTULO -->
+    <div class="caja">
+        <h1>PROYECTS.</h1>
+        <!-- BOTÓN MENÚ -->
+        <button type="button" class="btn btn-primary position-absolute top-0 end-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            MENU
+        </button>
         </div>
-        <hr class="border border-dark border-1 opacity-100">
-</header>
+
+          
+          
+    
+
+        <!-- DESARROLLO MENÚ (VENTANA MODAL) -->
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="btn-close top-0 end-0 position-absolute py-3 px-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- CONTENEDOR APARTADO 1 -->
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">ABOUT US</h1>
+          <a href="about.html">
+              <button type="button" class="pagina">SEE MORE</button>
+          </a>
+        </div>
+        <!-- FIN DE CONTENEDOR APARTADO 1 -->
+       
+        <!-- CONTENEDOR APARTADO 2 -->
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"> WHAT WE DO</h1>
+                <a href="index.html">
+                    <button type="button" class="pagina">SEE MORE</button>
+                </a>
+              </div>
+        <!-- FIN DE CONTENEDOR APARTADO 2 -->
+  
+        <!-- CONTENEDOR FOOTER MODAL-->
+              <div class="modal-footer">
+                <p>*CREATIVE ST</p>
+                <hr>
+                <p>MOST CREATIVE PEOPLE AROUND</p>
+              </div>
+        <!-- FIN DE FOOTER MODAL -->
+      </div>
+    </div>
+  </div>
+
+
+      
+      
+      
 
 <!-- GALERIA 1 -->
+<div class="section-container">
 <div class="container-fluid g-0">
-    
+    <div class="fila1">
     <div class="row w-100">
 
       <div class="col align-self-start d-flex flex-column w-25 p-0">
@@ -45,6 +88,7 @@
     </div>
       
     </div>
+</div>
     
     <div class="fila2">
       <div class="row w-100 d-flex">
@@ -64,23 +108,23 @@
         </div>
     </div>
 </div>
+</div>
   </div>
    
   <!-- ACORDEON -->
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                MORE INFO
-            </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-               <p> At our photography studio, we specialize in creating visual stories that capture the beauty of life. With a team of skilled photographers, state-of-the-art equipment, and a passion for the craft, we turn your most precious moments into timeless works of art. Whether it's a family portrait, a wedding, a corporate event, or a product showcase, we are dedicated to providing you with the highest quality photography. Our tailored approach ensures that your unique vision is brought to life through our lenses. Let us be your trusted partners in preserving your cherished memories.</p>
-            </div>
-        </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        OUR WORK.
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <p>In the fast-paced digital age, we embrace the art of patience. We understand that every moment is unique, and we take the time to frame it perfectly. Analog photography is about waiting for the right lighting, the genuine expressions, and the ideal composition. We don't rush the process; we savor it. We have a distinct approach to capturing the essence of life through the lens of a vintage camera. We believe that the art of analog photography goes beyond merely taking pictures; it's about weaving a story, capturing emotions, and creating timeless moments.
+          </p>
+      </div>
     </div>
-</div>
+  </div>
 
 
 
@@ -106,21 +150,28 @@
 
 
  <!-- FOOTER -->
-<footer> 
+ <footer>
+    <div class="footext">
+
     <h2>WANT TO KNOW MORE?</h2>
-    <p>GET IN TOUCH WITH US!</p>
+    <h2>GET IN TOUCH WITH US!</h2>
+    </div>
+    
     <form class="d-flex">
-        <div class="col-auto">
-          <label class="visually-hidden" for="autoSizingInput">Name</label>
-          <input type="text" class="form-control" id="autoSizingInput" placeholder="EMAIL">
+    <div class="col-auto">
+        <label class="visually-hidden" for="autoSizingInput">Name</label>
+        <input type="text" class="form-control" id="autoSizingInput" placeholder="EMAIL">
         </div>
+
         <div class="col-auto">
-         </div>
-        <div class="col-auto">
-          <button type="SEND" class="btn btn-primary">SEND</button>
         </div>
-      </form>
-</footer>
+
+        <div class="col-auto">
+        <button type="SEND" class="btn">SEND</button>
+        </div>
+    </form>
+
+   </footer> 
 
 </body>
 </html>
