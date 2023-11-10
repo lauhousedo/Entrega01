@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+body {
+    background-color: white;
+
+
+}
+
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+
+h1 {
+    font-size: 9vw;
+}
+
+
+h2 {
+    font-size: 1.5em;
+}
+
+/* MAQUETACIÓN DEL TÍTULO */
+.caja {
+    padding: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* MAQUETACIÓN DEL BOTÓN DE MENÚ */
+.btn-primary {
+    background-color: #BDBDBD;
+    font-family: 'Roboto Mono', monospace;
+   color: black;
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 100px;
+   height: 100px;
+   margin-top: 10px;
+   margin-right: 10px;
+   border-color: black;
+   border-radius: 50%;
+margin-top: 30px;
+   }
+
+   .btn-primary:hover {
+    background-color: blueviolet;
+    color: black;
+    border-color: black;
+}
+
+/* MAQUETACIÓN MODAL MENÚ */
+.modal h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-content {
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.modal-header {
+    border-bottom: 1px solid black;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+/* MAQUETACIÓN BOTÓN SEE MORE */
+.pagina {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    background-color: #00FF66;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 2em 0.5em 2em;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    background-color:#BDBDBD;
+    padding: 20px 0px;
+
+}
+
+.modal-footer hr {
+    border: 1px dashed black;
+    width: 30%;
+}
+
+.modal-footer p {
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+
+   /*ACORDEÓN */
+
+.accordion {
+    border-top: none;  
+    width: 100%;
+}
+
+#accordionExample > p {
+    font-size: 2vw;
+}
+
+.accordion-item {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
+    border-radius: 0% !important;
+    border-bottom: 1px solid black;
+}
+
+
+
+.accordion-button {
+    box-shadow: none !important;
+    padding: 0; 
+    background-color: white !important; 
+    font-size: 9vw;
+    color: black !important;
+}
+
+
+.accordion-button::after {
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+.accordion-body {
+    border-top: none;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* footer */
+
+.footext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+background-color: #00FF66;
+color: black;
+border: 1px solid black;
+border-radius: 50px;
+}
+
+footer {
+    border: 1px solid black 0px; 
+    border-top: 0;
+    padding: 20px; 
+    margin: 0; 
+    width: 100%;
+    background-color: #BDBDBD;
+}
+
+footer >.footext > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+}
+
+footer > .footext > p {
+    font-family: 'Roboto Mono', monospace;
+}
+.custom-input {
+    width: 100%; 
+}
+
+footer form {
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+
+
+/* email */
+.d-flex {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-control {
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+/* MEDIA QUERIES: RESPONSIVE */
+/* PRIMERA MEDIA QUERY */
+@media (max-width: 576px) {
+    h1 {
+        margin: 0;
+        font-size: 13vw;
+    }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    p {
+        font-size: 1.4em;
+    }
+    .titulo {
+        padding: 15px 10px;
+    }
+
+    .subtitulo {
+        width: 50%;
+        align-items: left;
+        margin-left: 10px;
+    }
+
+    hr {
+        width: 70%;
+    }
+
+    .modal-footer {
+        text-align: center;
+    }
+
+    .btn-primary {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+    .caja {
+        padding: 30px;
+        padding-left: 20px;
+        align-items: center;
+    }
+
+    .accordion-button {
+        font-size: 13vw;
+    }
+
+    /* FOOTER */
+
+    footer >.footext > h2 {
+        font-size: 6vw;
+    }
+
+    footer .footext :last-child {
+        text-align: right;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex :last-child {
+        margin-top: 5px;
+    }
+
+}
+
+
+/* SEGUNDA MEDIA QUERY */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    h1 {
+        margin: 0;
+        font-size: 11vw;
+    }
+
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .subtitulo {
+        width: 25%;
+        margin-right: 30%;
+    }
+
+    .btn-primary {
+        width: 90px;
+        height: 90px;
+        margin-top: 20px;
+    }
+
+    .accordion-button {
+        font-size: 11vw;
+    }
+
+    /* FOOTER */
+    footer >.footext > h2 {
+        font-size: 4vw;
+    }
+
+}
+
