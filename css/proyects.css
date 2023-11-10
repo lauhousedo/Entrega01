@@ -177,7 +177,6 @@ margin-top: 30px;
 .accordion-button::after {
     margin-right: 0;
     padding-right: 20px;
-    background-color: white;
 }
 
 .accordion-body {
@@ -203,7 +202,7 @@ margin-top: 30px;
 .overlay-text {
     color: black;
     padding: 10px;
-    font-size: 6em;
+    font-size: 5em;
     line-height: 1;
     white-space: pre-line;
 }
@@ -413,22 +412,8 @@ footer form {
     .accordion-button {
             font-size: 13vw;
         }
-    }
 
-    footer >.footext > h2 {
-        font-size: 6vw;
-    }
-
-    footer .footext :last-child {
-        text-align: right;
-    }
-
-    .d-flex {
-        flex-direction: column;
-    }
-
-    .d-flex :last-child {
-        margin-top: 5px;
+   
     }
     
 
@@ -460,7 +445,6 @@ footer form {
     .accordion-button {
         font-size: 11vw;
     }
-
     /* GALERIA1 */
     .fila1 .col {
         flex: 0 0 100%;
@@ -506,48 +490,41 @@ footer form {
         padding: 20px;
     }
 
-    
- /* GALERIA 2 */
+    /* GALERIA 2 */
 
-.seccion2 .gallery3,
-.seccion2 .gallery4 {
+    .seccion2 .gallery3,
+    .seccion2 .gallery4 {
     display: flex;
     flex-direction: column;
-}
+    }
 
-.seccion2 .gallery3 img,
-.seccion2 .gallery4 img,
-.seccion2 .green-rectangle {
+    .seccion2 .gallery3 img,
+    .seccion2 .gallery4 img,
+    .seccion2 .green-rectangle {
     width: 100%;
-}
+    }
 
-.seccion2 .gallery3 .d-flex,
-.seccion2 .gallery4 .d-flex {
+    .seccion2 .gallery3 .d-flex,
+    .seccion2 .gallery4 .d-flex {
     flex-direction: column;
-}
+    }
 
-.seccion2 .gallery3 img,
-.seccion2 .gallery4 img,
-.seccion2 .green-rectangle {
+    .seccion2 .gallery3 img,
+    .seccion2 .gallery4 img,
+    .seccion2 .green-rectangle {
     width: 100% !important; 
-}
+    }
 
-.seccion2 .green-rectangle {
+    .seccion2 .green-rectangle {
     width: 100%;
     height: 450px; 
-}
+    }
 
-.overlay-text {
+    .overlay-text {
     color: black;
     padding: 10px;
     font-size: 4em;
     line-height: 1;
-}
-
-    
-    /* FOOTER */
-    footer >.footext > h2 {
-        font-size: 4vw;
     }
 
     .fila1 .col {
@@ -586,11 +563,6 @@ footer form {
         width: 100% !important;
       }
 
-      /* FOOTER */
-    footer >.footext > h2 {
-        font-size: 4vw;
-    }
-    
 }
 
 
