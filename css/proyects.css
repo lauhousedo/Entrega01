@@ -177,6 +177,7 @@ margin-top: 30px;
 .accordion-button::after {
     margin-right: 0;
     padding-right: 20px;
+    background-color: white;
 }
 
 .accordion-body {
@@ -413,6 +414,22 @@ footer form {
             font-size: 13vw;
         }
     }
+
+    footer >.footext > h2 {
+        font-size: 6vw;
+    }
+
+    footer .footext :last-child {
+        text-align: right;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex :last-child {
+        margin-top: 5px;
+    }
     
 
 /* SEGUNDA MEDIA QUERY */
@@ -443,6 +460,7 @@ footer form {
     .accordion-button {
         font-size: 11vw;
     }
+
     /* GALERIA1 */
     .fila1 .col {
         flex: 0 0 100%;
@@ -567,6 +585,12 @@ footer form {
       .fila2 .image-caption {
         width: 100% !important;
       }
+
+      /* FOOTER */
+    footer >.footext > h2 {
+        font-size: 4vw;
+    }
+    
 }
 
 
