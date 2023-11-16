@@ -39,10 +39,7 @@ h2 {
 }
 
 
-.container-fluid {
-    margin-top: 0%; 
-    margin-left: 12px;
-}
+
 
 hr {
     margin-bottom: 0%;
@@ -139,9 +136,8 @@ hr {
     font-size: 3em;
   }
 
-  .fila2 {
-    margin-top: -106px;
-  }
+ 
+
   .container-fluid {
     padding-bottom: 20px; 
 }
@@ -195,6 +191,11 @@ hr {
 .seccion2 .sin-margenes {
     margin: 0;
 }
+
+.fila2 {
+    margin-top: -106px;
+  }
+
 
 .green-rectangle {
     background-color: #00FF66; 
